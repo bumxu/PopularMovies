@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:background="@color/colorPrimary"
+      app:bbn_itemColorActive="#ffffff"
+      app:bbn_rippleColor="#60ffffff"
+      tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/action_popular"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_popular"
+        android:title="@string/sc_most_popular"
+        tools:showAsAction="always"/>
+    <item
+        android:id="@+id/action_top"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_toprated"
+        android:title="@string/sc_top_rated"
+        tools:showAsAction="always"/>
+    <item
+        android:id="@+id/action_favorites"
+        android:enabled="true"
+        android:icon="@drawable/ic_sc_favorites"
+        android:title="@string/sc_your_favorites"
+        tools:showAsAction="always"/>
+</menu>

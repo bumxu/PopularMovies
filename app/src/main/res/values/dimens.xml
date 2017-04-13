@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Movie list view -->
+    <integer name="ref_column_size">185</integer>
+    <dimen name="tile_gutter">6dp</dimen>
+
+    <!-- Movie details view -->
+    <dimen name="movie_detail_bubble_padding">13dp</dimen>
+    <dimen name="movie_detail_bubble_extra_padding">7dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tile_gutter">9dp</dimen>
+
+    <!-- Movie details view -->
+    <dimen name="movie_detail_bubble_padding">16dp</dimen>
+    <dimen name="movie_detail_bubble_extra_padding">9dp</dimen>
+</resources>

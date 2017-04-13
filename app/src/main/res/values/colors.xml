@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the main app colors -->
+    <color name="colorPrimaryDark">#246980</color>
+    <color name="colorPrimary">#2b7e99</color>
+    <!-- Color for background elements -->
+    <color name="colorSecondary">#42585e</color>
+    <!-- A bit sharper color -->
+    <color name="colorAccent">#3e9fc1</color>
+    <!-- For favorite items -->
+    <color name="colorFavorite">#faa825</color>
+</resources>

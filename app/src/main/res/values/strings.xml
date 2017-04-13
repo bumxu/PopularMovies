@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Headers -->
+    <string name="head_reviews">Reviews</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+
+    <!-- Actions (do) -->
+    <string name="do_retry">Retry</string>
+    <string name="do_refresh">Refresh</string>
+    <string name="do_share">Share</string>
+    <string name="do_favorite">Favorite</string>
+    <string name="do_save_favorite">Save favorite</string>
+    <string name="do_remove_favorite">Favorite saved</string>
+    <string name="do_read_movie_reviews">Read community reviews</string>
+
+    <!-- Share -->
+    <string name="share_movie">I liked the movie "%1$s" that I saw in PopularMovies.</string>
+    <string name="share_trailer">Take a look! %1$s</string>
+
+    <!-- Movie detail view fields -->
+    <string name="original_title">Original title</string>
+    <string name="app_name">Popular Movies</string>
+    <string name="release_date">Release date</string>
+    <string name="current_rating">%1$.1f / 10</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="updated_date">Data obtained on:</string>
+
+    <!-- Messages -->
+    <string name="msg_no_internet">Unable to connect.</string>
+    <string name="msg_invalid_movie_reviews">Provided an invalid movie for retrieve reviews.</string>
+    <string name="msg_error_trailers">· Error obtaining trailers ·</string>
+    <string name="msg_no_trailers">· No trailer available ·</string>
+    <string name="msg_trailers_no_internet">· Unable to connect ·</string>
+    <string name="msg_no_reviews">Sorry, currently there is no reviews for this movie.</string>
+    <string name="msg_empty_favorites">Your favorite movies list is empty! You can add your favorite movies from the every movie details page.</string>
+
+    <!-- Sections / sorting / bottom nav -->
+    <string name="sc_most_popular">Most popular</string>
+    <string name="sc_top_rated">Top rated</string>
+    <string name="sc_your_favorites">Your favorites</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_movie_detail_poster">Current movie poster</string>
+    <string name="cd_trailer_thumb">Thumbnail for a trailer of the current movie.</string>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bumxu.android.lab.UniformFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    app:ufl_constant="height"
+    app:ufl_heightRatio="15"
+    app:ufl_widthRatio="9"
+    tools:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/image_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/cd_trailer_thumb"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/demo_th"/>
+
+    <TextView
+        android:id="@+id/text_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.75"
+        android:background="#000"
+        android:paddingBottom="2dp"
+        android:paddingEnd="6dp"
+        android:paddingStart="6dp"
+        android:paddingTop="2dp"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        tools:text="3:54"/>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mrl_rippleColor="#ffffff"
+        app:mrl_rippleDuration="400"
+        app:mrl_rippleFadeDuration="200"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleRoundedCorners="3dp">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:alpha="0.6"
+            android:src="@drawable/ic_play_circle_outline_white_48dp"
+            tools:ignore="ContentDescription"/>
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</com.bumxu.android.lab.UniformFrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- UniformFrameLayout Attributes -->
+<resources>
+    <declare-styleable name="UniformFrameLayout">
+        <attr name="ufl_constant" format="enum">
+            <enum name="width" value="0" />
+            <enum name="height" value="1" />
+        </attr>
+        <attr name="ufl_widthRatio" format="float" />
+        <attr name="ufl_heightRatio" format="float" />
+    </declare-styleable>
+</resources>

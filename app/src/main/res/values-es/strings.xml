@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="sc_most_popular">Populares</string>
+    <string name="sc_top_rated">Más valoradas</string>
+    <string name="sc_your_favorites">Tus favoritas</string>
+    <string name="do_refresh">Actualizar</string>
+    <string name="settings">Opciones</string>
+    <string name="do_retry">Reintentar</string>
+    <string name="msg_no_internet">No hay conexión.</string>
+    <string name="updated_date">Datos obtenidos:</string>
+    <string name="do_read_movie_reviews">Leer los análisis de la comunidad</string>
+    <string name="do_remove_favorite">Guardada en favoritas</string>
+    <string name="do_save_favorite">Guardar favorita</string>
+    <string name="original_title">Título original</string>
+    <string name="release_date">Lanzamiento</string>
+    <string name="synopsis">Sinopsis</string>
+    <string name="head_reviews">Análisis</string>
+    <string name="cd_movie_detail_poster">Portada de esta película</string>
+    <string name="current_rating">%1$.1f de 10</string>
+    <string name="msg_invalid_movie_reviews">No se pueden recuperar los análisis de esta palícula.</string>
+    <string name="msg_error_trailers">· Error obteniendo trailers ·</string>
+    <string name="msg_no_trailers">· Ningún trailer disponible ·</string>
+    <string name="msg_trailers_no_internet">· No hay conexión ·</string>
+    <string name="msg_no_reviews">Lo sentimos, actualmente no hay análisis para esta película.</string>
+    <string name="do_share">Compartir</string>
+    <string name="share_movie">Me ha gustado la película \"%1$s\" que he visto en Popular Movies.</string>
+    <string name="share_trailer">¡Mira el trailer! %1$s</string>
+    <string name="do_favorite">Favorita</string>
+    <string name="cd_trailer_thumb">Miniatura del uno de los trailers de esta película.</string>
+    <string name="msg_empty_favorites">¡Tu lista de películas favoritas está vacía! Puedes añadir tus películas favoritas desde la página de detalles de cada una.</string>
+</resources>
